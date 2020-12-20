@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OptimizationTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OptimizationTest">
+				<Option output="E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/OptimizationTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Projects/Git repositories/OptimizationTest/src"/>
+					<Add directory="e:/MinGW/include"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 OptimizationTest"/>
+					<CompileFile command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OptimizationTest/fast">
+				<Option output="E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/OptimizationTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Projects/Git repositories/OptimizationTest/src"/>
+					<Add directory="e:/MinGW/include"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGWLight/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 OptimizationTest/fast"/>
+					<CompileFile command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGWLight/mingw64/bin/mingw32-make.exe -f &quot;E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/FullEnumerationAlgorithm.cpp">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/FullEnumerationAlgorithm.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/AppSettings.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Functions.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Globals.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Main.cpp">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/Bin.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/Data.cpp">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/Data.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/Entrance.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/IIdentity.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/IPosition.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/Model.cpp">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Models/Model.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Stdafx.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

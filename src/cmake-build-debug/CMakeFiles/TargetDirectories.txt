@@ -1,0 +1,3 @@
+E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/CMakeFiles/OptimizationTest.dir
+E:/Projects/Git repositories/OptimizationTest/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
