@@ -156,12 +156,64 @@ CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.obj.prov
 CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.obj.provides.build: CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.obj
 
 
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj: CMakeFiles/OptimizationTest.dir/flags.make
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj: CMakeFiles/OptimizationTest.dir/includes_CXX.rsp
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj: ../Algorithms/GeneticAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj"
+	E:\MinGWLight\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OptimizationTest.dir\Algorithms\GeneticAlgorithm.cpp.obj -c "E:\Projects\Git repositories\OptimizationTest\src\Algorithms\GeneticAlgorithm.cpp"
+
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.i"
+	E:\MinGWLight\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\Git repositories\OptimizationTest\src\Algorithms\GeneticAlgorithm.cpp" > CMakeFiles\OptimizationTest.dir\Algorithms\GeneticAlgorithm.cpp.i
+
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.s"
+	E:\MinGWLight\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\Git repositories\OptimizationTest\src\Algorithms\GeneticAlgorithm.cpp" -o CMakeFiles\OptimizationTest.dir\Algorithms\GeneticAlgorithm.cpp.s
+
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.requires:
+
+.PHONY : CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.requires
+
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.provides: CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.provides.build
+.PHONY : CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.provides
+
+CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.provides.build: CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj
+
+
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj: CMakeFiles/OptimizationTest.dir/flags.make
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj: CMakeFiles/OptimizationTest.dir/includes_CXX.rsp
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj: ../Algorithms/AlgorithmHelpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj"
+	E:\MinGWLight\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OptimizationTest.dir\Algorithms\AlgorithmHelpers.cpp.obj -c "E:\Projects\Git repositories\OptimizationTest\src\Algorithms\AlgorithmHelpers.cpp"
+
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.i"
+	E:\MinGWLight\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\Git repositories\OptimizationTest\src\Algorithms\AlgorithmHelpers.cpp" > CMakeFiles\OptimizationTest.dir\Algorithms\AlgorithmHelpers.cpp.i
+
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.s"
+	E:\MinGWLight\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\Git repositories\OptimizationTest\src\Algorithms\AlgorithmHelpers.cpp" -o CMakeFiles\OptimizationTest.dir\Algorithms\AlgorithmHelpers.cpp.s
+
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.requires:
+
+.PHONY : CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.requires
+
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.provides: CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.provides.build
+.PHONY : CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.provides
+
+CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.provides.build: CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj
+
+
 # Object files for target OptimizationTest
 OptimizationTest_OBJECTS = \
 "CMakeFiles/OptimizationTest.dir/Main.cpp.obj" \
 "CMakeFiles/OptimizationTest.dir/Models/Data.cpp.obj" \
 "CMakeFiles/OptimizationTest.dir/Models/Model.cpp.obj" \
-"CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.obj"
+"CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.obj" \
+"CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj" \
+"CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj"
 
 # External object files for target OptimizationTest
 OptimizationTest_EXTERNAL_OBJECTS =
@@ -170,12 +222,14 @@ OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/Main.cpp.obj
 OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/Models/Data.cpp.obj
 OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/Models/Model.cpp.obj
 OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.obj
+OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj
+OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj
 OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/build.make
 OptimizationTest.exe: E:/MinGW/lib/libboost_serialization.a
 OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/linklibs.rsp
 OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/objects1.rsp
 OptimizationTest.exe: CMakeFiles/OptimizationTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable OptimizationTest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OptimizationTest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OptimizationTest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -187,6 +241,8 @@ CMakeFiles/OptimizationTest.dir/requires: CMakeFiles/OptimizationTest.dir/Main.c
 CMakeFiles/OptimizationTest.dir/requires: CMakeFiles/OptimizationTest.dir/Models/Data.cpp.obj.requires
 CMakeFiles/OptimizationTest.dir/requires: CMakeFiles/OptimizationTest.dir/Models/Model.cpp.obj.requires
 CMakeFiles/OptimizationTest.dir/requires: CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.obj.requires
+CMakeFiles/OptimizationTest.dir/requires: CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj.requires
+CMakeFiles/OptimizationTest.dir/requires: CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj.requires
 
 .PHONY : CMakeFiles/OptimizationTest.dir/requires
 

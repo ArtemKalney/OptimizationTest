@@ -10,6 +10,7 @@ private:
     std::vector<std::vector<int>> _Z;
     double _objFunctionValue;
     std::vector<Bin> _route;
+    bool _isConditionsChecked;
 public:
     Model() = default;
 
@@ -21,14 +22,23 @@ public:
         FillZ();
         std::vector<bool> visited(_data.Bins.size());
         FillObjFunctionValue(_solution.front(), visited);
+        _isConditionsChecked = CheckConditions();
     }
 
     double GetObjFunctionValue() const {
         return _objFunctionValue;
     }
 
-    std::vector<Bin> &GetRoute() {
+    std::vector<Bin>& GetRoute() {
         return _route;
+    }
+
+    std::vector<Bin>& GetSolution() {
+        return _solution;
+    }
+
+    bool GetIsConditionsChecked() const {
+        return _isConditionsChecked;
     }
 
     void FillX();
@@ -45,4 +55,12 @@ public:
     void PrintModel();
 
     bool CheckConditions();
+
+    static bool ModelCompare(const Model &a, const Model &b)
+    {
+        return a.GetObjFunctionValue() < b.GetObjFunctionValue();
+    }
 };
+
+bool operator ==(Model &firstElement, Model &secondElement);
+bool operator !=(Model &firstElement, Model &secondElement);

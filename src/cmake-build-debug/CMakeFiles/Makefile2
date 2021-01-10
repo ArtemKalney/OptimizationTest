@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = "E:\Projects\Git repositories\OptimizationTest\src\cmake-buil
 CMakeFiles/OptimizationTest.dir/all:
 	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/depend
 	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target OptimizationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target OptimizationTest"
 .PHONY : CMakeFiles/OptimizationTest.dir/all
 
 # Include target in all.
@@ -75,7 +75,7 @@ all: CMakeFiles/OptimizationTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OptimizationTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" 7
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/OptimizationTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Projects\Git repositories\OptimizationTest\src\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/OptimizationTest.dir/rule

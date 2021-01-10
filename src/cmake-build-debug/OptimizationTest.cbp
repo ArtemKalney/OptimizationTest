@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.cpp">
+			<Option target="OptimizationTest"/>
+		</Unit>
 		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.h">
 			<Option target="OptimizationTest"/>
 		</Unit>
@@ -91,6 +94,12 @@
 			<Option target="OptimizationTest"/>
 		</Unit>
 		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/FullEnumerationAlgorithm.h">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/GeneticAlgorithm.cpp">
+			<Option target="OptimizationTest"/>
+		</Unit>
+		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/Algorithms/GeneticAlgorithm.h">
 			<Option target="OptimizationTest"/>
 		</Unit>
 		<Unit filename="E:/Projects/Git repositories/OptimizationTest/src/AppSettings.h">

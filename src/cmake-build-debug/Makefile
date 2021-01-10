@@ -122,6 +122,33 @@ OptimizationTest/fast:
 	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/build
 .PHONY : OptimizationTest/fast
 
+Algorithms/AlgorithmHelpers.obj: Algorithms/AlgorithmHelpers.cpp.obj
+
+.PHONY : Algorithms/AlgorithmHelpers.obj
+
+# target to build an object file
+Algorithms/AlgorithmHelpers.cpp.obj:
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.obj
+.PHONY : Algorithms/AlgorithmHelpers.cpp.obj
+
+Algorithms/AlgorithmHelpers.i: Algorithms/AlgorithmHelpers.cpp.i
+
+.PHONY : Algorithms/AlgorithmHelpers.i
+
+# target to preprocess a source file
+Algorithms/AlgorithmHelpers.cpp.i:
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.i
+.PHONY : Algorithms/AlgorithmHelpers.cpp.i
+
+Algorithms/AlgorithmHelpers.s: Algorithms/AlgorithmHelpers.cpp.s
+
+.PHONY : Algorithms/AlgorithmHelpers.s
+
+# target to generate assembly for a file
+Algorithms/AlgorithmHelpers.cpp.s:
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/AlgorithmHelpers.cpp.s
+.PHONY : Algorithms/AlgorithmHelpers.cpp.s
+
 Algorithms/FullEnumerationAlgorithm.obj: Algorithms/FullEnumerationAlgorithm.cpp.obj
 
 .PHONY : Algorithms/FullEnumerationAlgorithm.obj
@@ -148,6 +175,33 @@ Algorithms/FullEnumerationAlgorithm.s: Algorithms/FullEnumerationAlgorithm.cpp.s
 Algorithms/FullEnumerationAlgorithm.cpp.s:
 	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/FullEnumerationAlgorithm.cpp.s
 .PHONY : Algorithms/FullEnumerationAlgorithm.cpp.s
+
+Algorithms/GeneticAlgorithm.obj: Algorithms/GeneticAlgorithm.cpp.obj
+
+.PHONY : Algorithms/GeneticAlgorithm.obj
+
+# target to build an object file
+Algorithms/GeneticAlgorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.obj
+.PHONY : Algorithms/GeneticAlgorithm.cpp.obj
+
+Algorithms/GeneticAlgorithm.i: Algorithms/GeneticAlgorithm.cpp.i
+
+.PHONY : Algorithms/GeneticAlgorithm.i
+
+# target to preprocess a source file
+Algorithms/GeneticAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.i
+.PHONY : Algorithms/GeneticAlgorithm.cpp.i
+
+Algorithms/GeneticAlgorithm.s: Algorithms/GeneticAlgorithm.cpp.s
+
+.PHONY : Algorithms/GeneticAlgorithm.s
+
+# target to generate assembly for a file
+Algorithms/GeneticAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\OptimizationTest.dir\build.make CMakeFiles/OptimizationTest.dir/Algorithms/GeneticAlgorithm.cpp.s
+.PHONY : Algorithms/GeneticAlgorithm.cpp.s
 
 Main.obj: Main.cpp.obj
 
@@ -239,9 +293,15 @@ help:
 	@echo ... edit_cache
 	@echo ... OptimizationTest
 	@echo ... rebuild_cache
+	@echo ... Algorithms/AlgorithmHelpers.obj
+	@echo ... Algorithms/AlgorithmHelpers.i
+	@echo ... Algorithms/AlgorithmHelpers.s
 	@echo ... Algorithms/FullEnumerationAlgorithm.obj
 	@echo ... Algorithms/FullEnumerationAlgorithm.i
 	@echo ... Algorithms/FullEnumerationAlgorithm.s
+	@echo ... Algorithms/GeneticAlgorithm.obj
+	@echo ... Algorithms/GeneticAlgorithm.i
+	@echo ... Algorithms/GeneticAlgorithm.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s

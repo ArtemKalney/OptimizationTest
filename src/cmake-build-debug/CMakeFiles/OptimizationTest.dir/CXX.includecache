@@ -10,9 +10,27 @@
 Models/Model.h
 -
 
+..//Algorithms/GeneticAlgorithm.h
+Globals.h
+../Algorithms/Globals.h
+Models/Data.h
+-
+Models/Model.h
+-
+
 ..//Globals.h
 Stdafx.h
 ../Stdafx.h
+AppSettings.h
+../AppSettings.h
+
+..//Models/Bin.h
+Stdafx.h
+../Models/Stdafx.h
+IIdentity.h
+../Models/IIdentity.h
+IPosition.h
+../Models/IPosition.h
 
 ..//Models/Data.h
 Stdafx.h
@@ -27,8 +45,6 @@ Data.h
 ../Models/Data.h
 
 ..//Stdafx.h
-AppSettings.h
-../AppSettings.h
 boost/property_tree/json_parser.hpp
 -
 iostream
@@ -36,6 +52,8 @@ iostream
 numeric
 -
 cfloat
+-
+string
 -
 
 ../AppSettings.h
@@ -65,8 +83,6 @@ IIdentity.h
 ../Models/IPosition.h
 
 ../Stdafx.h
-AppSettings.h
-../AppSettings.h
 boost/property_tree/json_parser.hpp
 -
 iostream
@@ -75,12 +91,24 @@ numeric
 -
 cfloat
 -
+string
+-
+
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.cpp
+AlgorithmHelpers.h
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.h
+
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.h
+Models/Bin.h
+-
 
 E:/Projects/Git repositories/OptimizationTest/src/Algorithms/FullEnumerationAlgorithm.cpp
 Models/Model.h
 -
 FullEnumerationAlgorithm.h
 E:/Projects/Git repositories/OptimizationTest/src/Algorithms/FullEnumerationAlgorithm.h
+AlgorithmHelpers.h
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.h
 Globals.h
 -
 
@@ -88,10 +116,26 @@ E:/Projects/Git repositories/OptimizationTest/src/Algorithms/FullEnumerationAlgo
 Models/Model.h
 -
 
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/GeneticAlgorithm.cpp
+GeneticAlgorithm.h
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/GeneticAlgorithm.h
+AlgorithmHelpers.h
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/AlgorithmHelpers.h
+
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/GeneticAlgorithm.h
+Globals.h
+E:/Projects/Git repositories/OptimizationTest/src/Algorithms/Globals.h
+Models/Data.h
+-
+Models/Model.h
+-
+
 E:/Projects/Git repositories/OptimizationTest/src/Main.cpp
 Models/Data.h
 -
 Algorithms/FullEnumerationAlgorithm.h
+-
+Algorithms/GeneticAlgorithm.h
 -
 
 E:/Projects/Git repositories/OptimizationTest/src/Models/Bin.h

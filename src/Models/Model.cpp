@@ -14,7 +14,7 @@ void Model::FillZ() {
     _Z.resize(_data.Bins.size(), std::vector<int>(_data.Entrances.size()));
     for (int i = 0; i < _data.Entrances.size(); i++) {
         auto position = GetMinDistancePosition(_data.BinEntranceDistances, i);
-        if (position > 0) {
+        if (position >= 0) {
             _Z[position][i] = 1;
         }
     }
@@ -69,10 +69,10 @@ bool Model::CheckConditions()
 void Model::FillObjFunctionValue(const Bin &bin, std::vector<bool> &visited) {
     visited[bin.GetPosition()] = true;
     auto position = GetMinDistancePosition(_data.BinDistances, bin.GetPosition(), visited);
-    if (position > 0) {
+    if (position >= 0) {
         _objFunctionValue += _data.BinDistances[position][bin.GetPosition()];
     }
-    if (position > 0 && !visited[position]) {
+    if (position >= 0 && !visited[position]) {
         FillObjFunctionValue(_data.Bins[position], visited);
         _route.push_back(bin);
     } else {
@@ -87,13 +87,14 @@ int Model::GetMinDistancePosition(const std::vector<std::vector<double>> &distan
     return GetMinDistancePosition(distances, searchIndex, visited);
 }
 
+// поиск позиции с минмальным расстоянием в матрице смежности по второму индексу, с запретом выбора вершин по первому
 int Model::GetMinDistancePosition(const std::vector<std::vector<double>> &distances, const int &searchIndex,
                                   const std::vector<bool> &forbiddenNodes) {
     auto min = DBL_MAX;
     int position = -1;
     for(auto &item : _data.Bins) {
         auto distance = distances[item.GetPosition()][searchIndex];
-        if (_X[item.GetPosition()] == 1 && min > distance && item.GetPosition() != searchIndex &&
+        if (_X[item.GetPosition()] == 1 && min > distance && distance > 0 &&
                 !forbiddenNodes[item.GetPosition()]) {
             min = distance;
             position = item.GetPosition();
@@ -105,9 +106,28 @@ int Model::GetMinDistancePosition(const std::vector<std::vector<double>> &distan
 
 void Model::PrintModel() {
     std::cout << "Route:";
-    for(auto &item : GetRoute()) {
-        std::cout << item.GetId() << ",";
-    }
-    std::cout << std::endl;
+    PrintVector(GetRoute());
     std::cout << "ObjFunctionValue=" << GetObjFunctionValue() << std::endl;
+}
+
+bool operator ==(Model &firstElement, Model &secondElement) {
+    auto firstSolution = firstElement.GetSolution();
+    auto secondSolution = secondElement.GetSolution();
+    for (int i = 0; i < firstSolution.size(); ++i) {
+        if (firstSolution[i] == secondSolution[i]) {
+            continue;
+        } else {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+bool operator !=(Model &firstElement, Model &secondElement) {
+    if (firstElement == secondElement) {
+        return false;
+    }
+
+    return true;
 }

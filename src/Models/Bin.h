@@ -7,6 +7,7 @@
 class Bin : public IIdentity, public IPosition {
 private:
     int _id;
+    // Из-за того что полная матрица смежности велика, запоминаем позиции элементов в матрицах меньшей размерности
     int _position;
 public:
     Bin() = default;

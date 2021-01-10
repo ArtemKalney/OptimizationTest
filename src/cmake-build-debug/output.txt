@@ -1,5 +1,6 @@
-Solution:52,59,68,69,63,65,66,64,62,60,57,58,55,54,53,52,
-ObjFunctionValue:2101
+Solution:53,56,62,60,65,69
+Route:5365,62,60,56,53
+ObjFunctionValue:1257
 Statistics:
-CheckedConditions:950
-UncheckedConditions:19
+   Time:6215
+   GeneticAlgorithmIterations:172
