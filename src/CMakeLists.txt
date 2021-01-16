@@ -8,8 +8,8 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 #other libraries
 set(CMAKE_EXE_LINKER_FLAGS "-static -lpthread")
 #Boost library
-set(Boost_INCLUDE_DIR e:/MinGW/include/)
-set(Boost_LIBRARY_DIR e:/MinGW/lib/)
+set(Boost_INCLUDE_DIR C:/Program\ Files/MinGW/include/)
+set(Boost_LIBRARY_DIR C:/Program\ Files/MinGW/lib/)
 find_package(Boost COMPONENTS serialization REQUIRED)
 include_directories(${Boost_INCLUDE_DIR})
 target_link_libraries(OptimizationTest ${Boost_LIBRARIES})

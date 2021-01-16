@@ -1,6 +1,6 @@
-Solution:53,56,62,60,65,69
-Route:5365,62,60,56,53
+Solution:56,60,53,62,65,69
+Route:5665,62,60,53,56
 ObjFunctionValue:1257
 Statistics:
-   Time:6215
-   GeneticAlgorithmIterations:172
+   Time:1657
+   GeneticAlgorithmIterations:35
