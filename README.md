@@ -32,4 +32,4 @@
 Координаты были получены с помощью сервиса 2GIS. Матрицы смежности расстояний были получения с помощью [2GIS api](https://docs.2gis.com/ru/api/navigation/distance-matrix/overview). Тело запроса можно найти в documents/body.json.
 
 # Зависимости
-Для десериализации json была использована библиотека [boost](https://stackoverflow.com/questions/36519453/setup-boost-in-clion)
+Для десериализации json была использована библиотека [boost](https://nuwen.net/mingw.html)
