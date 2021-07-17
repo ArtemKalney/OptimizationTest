@@ -22,12 +22,13 @@
 # Данные
 Карта с расстановкой баков представлена на картинке:
 ![N_E_Ekvat_marked](https://user-images.githubusercontent.com/22174649/126031709-0e6e49d5-5dd4-47dc-b585-16f8bd62c489.png)
+
 где расцветка баков означает следующее:
 * бордовые - баки стоят, вывоз по расписанию
 * синие - баки стоят, вывоз по требованию
 * зелёные - оборудованные места, баков нет
 
-Координаты были получены с помощью сервиса 2GIS. Матрицы смежности расстояний были получения с помощью [2GIS api](https://docs.2gis.com/ru/api/navigation/distance-matrix/overview). Тело запроса можно найти в documents/Тестовый пример/body.json.
+Координаты были получены с помощью сервиса 2GIS. Матрицы смежности расстояний были получения с помощью [2GIS api](https://docs.2gis.com/ru/api/navigation/distance-matrix/overview). Тело запроса можно найти в [request body](https://github.com/ArtemKalney/OptimizationTest/documents/Тестовый пример/body.json).
 
 # Зависимости
 Для десериализации json была использована библиотека [boost](https://nuwen.net/mingw.html)
