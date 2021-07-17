@@ -28,7 +28,7 @@
 * синие - баки стоят, вывоз по требованию
 * зелёные - оборудованные места, баков нет
 
-Координаты были получены с помощью сервиса 2GIS. Матрицы смежности расстояний были получения с помощью [2GIS api](https://docs.2gis.com/ru/api/navigation/distance-matrix/overview). Тело запроса можно найти в [request body](https://github.com/ArtemKalney/OptimizationTest/documents/Тестовый пример/body.json).
+Координаты были получены с помощью сервиса 2GIS. Матрицы смежности расстояний были получения с помощью [2GIS api](https://docs.2gis.com/ru/api/navigation/distance-matrix/overview). Тело запроса можно найти в [request body](https://github.com/ArtemKalney/OptimizationTest/blob/main/documents/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80/body.json).
 
 # Зависимости
 Для десериализации json была использована библиотека [boost](https://nuwen.net/mingw.html)
